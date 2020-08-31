@@ -40,14 +40,14 @@
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jLabel2" min="-2" pref="36" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="textMax2" min="-2" pref="69" max="-2" attributes="0"/>
+                                          <Component id="textMaxDisco" min="-2" pref="69" max="-2" attributes="0"/>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="progressDisco" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="textMin2" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="textMinDisco" min="-2" pref="69" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -55,7 +55,7 @@
                                   <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                                   <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="textMed2" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="textMedDisco" min="-2" pref="69" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
@@ -77,18 +77,18 @@
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jLabel1" min="-2" pref="36" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="textMax1" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="textMaxCpu" min="-2" pref="69" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="progressCPU" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="textMin1" min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="textMinCpu" min="-2" pref="69" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="textMed1" min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="textMedCpu" min="-2" pref="69" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="LabelMemoria" min="-2" max="-2" attributes="0"/>
@@ -100,18 +100,18 @@
                               <Group type="102" attributes="0">
                                   <Component id="jLabel3" min="-2" pref="36" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="textMax3" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="textMaxMemoria" min="-2" pref="69" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="progressMemoria" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="textMin3" min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="textMinMemoria" min="-2" pref="69" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="textMed3" min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="textMedMemoria" min="-2" pref="69" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -140,9 +140,9 @@
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textMax1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textMin1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textMed1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMaxCpu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMinCpu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMedCpu" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -155,13 +155,13 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="textMax2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textMaxDisco" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                       <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="textMed2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="textMin2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textMedDisco" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="textMinDisco" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
@@ -176,9 +176,9 @@
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textMin3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textMed3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textMax3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMinMemoria" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMedMemoria" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textMaxMemoria" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -275,49 +275,49 @@
         <Property name="text" type="java.lang.String" value="M&#xe9;dia"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMax1">
+    <Component class="javax.swing.JTextField" name="textMaxCpu">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMax1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMaxCpuActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMin1">
+    <Component class="javax.swing.JTextField" name="textMinCpu">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMin1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMinCpuActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMax2">
+    <Component class="javax.swing.JTextField" name="textMaxDisco">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMax2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMaxDiscoActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMed1">
+    <Component class="javax.swing.JTextField" name="textMedCpu">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMed1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMedCpuActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMed2">
+    <Component class="javax.swing.JTextField" name="textMedDisco">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMed2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMedDiscoActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMin2">
+    <Component class="javax.swing.JTextField" name="textMinDisco">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMin2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMinDiscoActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMin3">
+    <Component class="javax.swing.JTextField" name="textMinMemoria">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMin3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMinMemoriaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMax3">
+    <Component class="javax.swing.JTextField" name="textMaxMemoria">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMax3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMaxMemoriaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="textMed3">
+    <Component class="javax.swing.JTextField" name="textMedMemoria">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMed3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textMedMemoriaActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel10">

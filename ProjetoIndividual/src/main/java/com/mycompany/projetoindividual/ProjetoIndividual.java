@@ -48,15 +48,15 @@ public class ProjetoIndividual extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        textMax1 = new javax.swing.JTextField();
-        textMin1 = new javax.swing.JTextField();
-        textMax2 = new javax.swing.JTextField();
-        textMed1 = new javax.swing.JTextField();
-        textMed2 = new javax.swing.JTextField();
-        textMin2 = new javax.swing.JTextField();
-        textMin3 = new javax.swing.JTextField();
-        textMax3 = new javax.swing.JTextField();
-        textMed3 = new javax.swing.JTextField();
+        textMaxCpu = new javax.swing.JTextField();
+        textMinCpu = new javax.swing.JTextField();
+        textMaxDisco = new javax.swing.JTextField();
+        textMedCpu = new javax.swing.JTextField();
+        textMedDisco = new javax.swing.JTextField();
+        textMinDisco = new javax.swing.JTextField();
+        textMinMemoria = new javax.swing.JTextField();
+        textMaxMemoria = new javax.swing.JTextField();
+        textMedMemoria = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         labelContador = new javax.swing.JLabel();
 
@@ -111,57 +111,57 @@ public class ProjetoIndividual extends javax.swing.JFrame {
 
         jLabel9.setText("Média");
 
-        textMax1.addActionListener(new java.awt.event.ActionListener() {
+        textMaxCpu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMax1ActionPerformed(evt);
+                textMaxCpuActionPerformed(evt);
             }
         });
 
-        textMin1.addActionListener(new java.awt.event.ActionListener() {
+        textMinCpu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMin1ActionPerformed(evt);
+                textMinCpuActionPerformed(evt);
             }
         });
 
-        textMax2.addActionListener(new java.awt.event.ActionListener() {
+        textMaxDisco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMax2ActionPerformed(evt);
+                textMaxDiscoActionPerformed(evt);
             }
         });
 
-        textMed1.addActionListener(new java.awt.event.ActionListener() {
+        textMedCpu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMed1ActionPerformed(evt);
+                textMedCpuActionPerformed(evt);
             }
         });
 
-        textMed2.addActionListener(new java.awt.event.ActionListener() {
+        textMedDisco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMed2ActionPerformed(evt);
+                textMedDiscoActionPerformed(evt);
             }
         });
 
-        textMin2.addActionListener(new java.awt.event.ActionListener() {
+        textMinDisco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMin2ActionPerformed(evt);
+                textMinDiscoActionPerformed(evt);
             }
         });
 
-        textMin3.addActionListener(new java.awt.event.ActionListener() {
+        textMinMemoria.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMin3ActionPerformed(evt);
+                textMinMemoriaActionPerformed(evt);
             }
         });
 
-        textMax3.addActionListener(new java.awt.event.ActionListener() {
+        textMaxMemoria.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMax3ActionPerformed(evt);
+                textMaxMemoriaActionPerformed(evt);
             }
         });
 
-        textMed3.addActionListener(new java.awt.event.ActionListener() {
+        textMedMemoria.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textMed3ActionPerformed(evt);
+                textMedMemoriaActionPerformed(evt);
             }
         });
 
@@ -189,18 +189,18 @@ public class ProjetoIndividual extends javax.swing.JFrame {
                                         .addGroup(layout.createSequentialGroup()
                                             .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(textMax2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(textMaxDisco, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                             .addComponent(jLabel5))
                                         .addComponent(progressDisco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(textMin2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(textMinDisco, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(layout.createSequentialGroup()
                                     .addGap(18, 18, 18)
                                     .addComponent(jLabel8)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(textMed2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(textMedDisco, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGap(0, 0, Short.MAX_VALUE))
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -216,16 +216,16 @@ public class ProjetoIndividual extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(textMax1, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(textMaxCpu, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jLabel4))
                                 .addComponent(progressCPU, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(textMin1, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textMinCpu, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(27, 27, 27)
                             .addComponent(jLabel7)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(textMed1, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(textMedCpu, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                             .addComponent(LabelMemoria)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -235,16 +235,16 @@ public class ProjetoIndividual extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(textMax3, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(textMaxMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(jLabel6))
                                 .addComponent(progressMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(textMin3, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textMinMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(27, 27, 27)
                             .addComponent(jLabel9)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(textMed3, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(textMedMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -266,9 +266,9 @@ public class ProjetoIndividual extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(jLabel4)
                     .addComponent(jLabel7)
-                    .addComponent(textMax1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textMin1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textMed1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(textMaxCpu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(textMinCpu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(textMedCpu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(38, 38, 38)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(LabelDisco)
@@ -279,12 +279,12 @@ public class ProjetoIndividual extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel2)
-                        .addComponent(textMax2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(textMaxDisco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel5)
                         .addComponent(jLabel8)
-                        .addComponent(textMed2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(textMin2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(textMedDisco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(textMinDisco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(LabelMemoria)
@@ -296,9 +296,9 @@ public class ProjetoIndividual extends javax.swing.JFrame {
                     .addComponent(jLabel3)
                     .addComponent(jLabel6)
                     .addComponent(jLabel9)
-                    .addComponent(textMin3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textMed3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textMax3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(textMinMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(textMedMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(textMaxMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -350,7 +350,8 @@ public class ProjetoIndividual extends javax.swing.JFrame {
         }
         if (numero3 < minMemoria) {
             minMemoria = numero3;
-        }
+        } 
+        
         
         medCpu = medCpu + numero1;
         medDisco = medDisco + numero2;
@@ -358,19 +359,19 @@ public class ProjetoIndividual extends javax.swing.JFrame {
         
         //Mostra os numeros
         TextCpu.setText(String.valueOf(numero1));
-        textMax1.setText(String.valueOf(maxCpu));
-        textMin1.setText(String.valueOf(minCpu));
-        textMed1.setText(String.valueOf(medCpu/contador));
+        textMaxCpu.setText(String.valueOf(maxCpu));
+        textMinCpu.setText(String.valueOf(minCpu));
+        textMedCpu.setText(String.valueOf(medCpu/contador));
         
         TextDisco.setText(String.valueOf(numero2));
-        textMax2.setText(String.valueOf(maxDisco));
-        textMin2.setText(String.valueOf(minDisco));
-        textMed2.setText(String.valueOf(medDisco/contador));
+        textMaxDisco.setText(String.valueOf(maxDisco));
+        textMinDisco.setText(String.valueOf(minDisco));
+        textMedDisco.setText(String.valueOf(medDisco/contador));
         
         TextMemoria.setText(String.valueOf(numero3));
-        textMax3.setText(String.valueOf(maxMemoria));
-        textMin3.setText(String.valueOf(minMemoria));
-        textMed3.setText(String.valueOf(medMemoria/contador));
+        textMaxMemoria.setText(String.valueOf(maxMemoria));
+        textMinMemoria.setText(String.valueOf(minMemoria));
+        textMedMemoria.setText(String.valueOf(medMemoria/contador));
         
         progressCPU.setValue(numero1);
         progressDisco.setValue(numero2);
@@ -378,8 +379,7 @@ public class ProjetoIndividual extends javax.swing.JFrame {
         
         labelContador.setText(String.valueOf(contador));
         
-        contador++;
-        
+      
     }//GEN-LAST:event_ButtonLeituraActionPerformed
 
     private void TextDiscoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextDiscoActionPerformed
@@ -394,41 +394,41 @@ public class ProjetoIndividual extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_TextMemoriaActionPerformed
 
-    private void textMax1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMax1ActionPerformed
+    private void textMaxCpuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMaxCpuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMax1ActionPerformed
+    }//GEN-LAST:event_textMaxCpuActionPerformed
 
-    private void textMin1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMin1ActionPerformed
+    private void textMinCpuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMinCpuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMin1ActionPerformed
+    }//GEN-LAST:event_textMinCpuActionPerformed
 
-    private void textMax2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMax2ActionPerformed
+    private void textMaxDiscoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMaxDiscoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMax2ActionPerformed
+    }//GEN-LAST:event_textMaxDiscoActionPerformed
 
-    private void textMed1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMed1ActionPerformed
+    private void textMedCpuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMedCpuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMed1ActionPerformed
+    }//GEN-LAST:event_textMedCpuActionPerformed
 
-    private void textMed2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMed2ActionPerformed
+    private void textMedDiscoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMedDiscoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMed2ActionPerformed
+    }//GEN-LAST:event_textMedDiscoActionPerformed
 
-    private void textMin2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMin2ActionPerformed
+    private void textMinDiscoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMinDiscoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMin2ActionPerformed
+    }//GEN-LAST:event_textMinDiscoActionPerformed
 
-    private void textMin3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMin3ActionPerformed
+    private void textMinMemoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMinMemoriaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMin3ActionPerformed
+    }//GEN-LAST:event_textMinMemoriaActionPerformed
 
-    private void textMax3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMax3ActionPerformed
+    private void textMaxMemoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMaxMemoriaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMax3ActionPerformed
+    }//GEN-LAST:event_textMaxMemoriaActionPerformed
 
-    private void textMed3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMed3ActionPerformed
+    private void textMedMemoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textMedMemoriaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textMed3ActionPerformed
+    }//GEN-LAST:event_textMedMemoriaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -487,14 +487,14 @@ public class ProjetoIndividual extends javax.swing.JFrame {
     private javax.swing.JProgressBar progressCPU;
     private javax.swing.JProgressBar progressDisco;
     private javax.swing.JProgressBar progressMemoria;
-    private javax.swing.JTextField textMax1;
-    private javax.swing.JTextField textMax2;
-    private javax.swing.JTextField textMax3;
-    private javax.swing.JTextField textMed1;
-    private javax.swing.JTextField textMed2;
-    private javax.swing.JTextField textMed3;
-    private javax.swing.JTextField textMin1;
-    private javax.swing.JTextField textMin2;
-    private javax.swing.JTextField textMin3;
+    private javax.swing.JTextField textMaxCpu;
+    private javax.swing.JTextField textMaxDisco;
+    private javax.swing.JTextField textMaxMemoria;
+    private javax.swing.JTextField textMedCpu;
+    private javax.swing.JTextField textMedDisco;
+    private javax.swing.JTextField textMedMemoria;
+    private javax.swing.JTextField textMinCpu;
+    private javax.swing.JTextField textMinDisco;
+    private javax.swing.JTextField textMinMemoria;
     // End of variables declaration//GEN-END:variables
 }
