@@ -12,7 +12,19 @@ import java.util.Random;
  * @author Aluno
  */
 public class ProjetoIndividual extends javax.swing.JFrame {
-
+    Integer contador = 0;
+    //Máximo Mínimo e média do numeros sorteados
+        Integer maxCpu = 0;
+        Integer minCpu = 100;
+        Integer medCpu = 0;
+        
+        Integer maxDisco = 0;
+        Integer minDisco = 100;
+        Integer medDisco = 0;
+        
+        Integer maxMemoria = 0;
+        Integer minMemoria = 100;
+        Integer medMemoria = 0;
     /**
      * Creates new form ProjetoIndividual
      */
@@ -314,22 +326,7 @@ public class ProjetoIndividual extends javax.swing.JFrame {
         Integer numero1 = aleatorio.nextInt(100);
         Integer numero2 = aleatorio2.nextInt(100);
         Integer numero3 = aleatorio3.nextInt(100);
-        //Conta quantas vezes o potão foi apertado
-        Integer contador = 0;
-        
-        //Máximo Mínimo e média do numeros sorteados
-        Integer maxCpu = 0;
-        Integer minCpu = 100;
-        Integer medCpu = 0;
-        
-        Integer maxDisco = 0;
-        Integer minDisco = 100;
-        Integer medDisco = 0;
-        
-        Integer maxMemoria = 0;
-        Integer minMemoria = 100;
-        Integer medMemoria = 0;
-        
+            
         //Armazena os numero da CPU
         if (numero1 > maxCpu) {
             maxCpu = numero1;
@@ -352,11 +349,10 @@ public class ProjetoIndividual extends javax.swing.JFrame {
             minMemoria = numero3;
         } 
         
-        
         medCpu = medCpu + numero1;
         medDisco = medDisco + numero2;
         medMemoria = medMemoria + numero3;
-        
+        contador += 1;
         //Mostra os numeros
         TextCpu.setText(String.valueOf(numero1));
         textMaxCpu.setText(String.valueOf(maxCpu));
