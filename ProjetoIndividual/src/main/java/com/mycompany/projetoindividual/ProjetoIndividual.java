@@ -16,15 +16,15 @@ public class ProjetoIndividual extends javax.swing.JFrame {
     //Máximo Mínimo e média do numeros sorteados
         Integer maxCpu = 0;
         Integer minCpu = 100;
-        Integer medCpu = 0;
+        Double medCpu = 0.0;
         
         Integer maxDisco = 0;
         Integer minDisco = 100;
-        Integer medDisco = 0;
+        Double medDisco = 0.0;
         
         Integer maxMemoria = 0;
         Integer minMemoria = 100;
-        Integer medMemoria = 0;
+        Double medMemoria = 0.0;
     /**
      * Creates new form ProjetoIndividual
      */
@@ -320,12 +320,12 @@ public class ProjetoIndividual extends javax.swing.JFrame {
     private void ButtonLeituraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonLeituraActionPerformed
         // Gera numeros aleatórios
         Random aleatorio = new Random();
-        Random aleatorio2 = new Random();
-        Random aleatorio3 = new Random();
+        //Random aleatorio2 = new Random();
+        //Random aleatorio3 = new Random();
         // Salva em uma variável
-        Integer numero1 = aleatorio.nextInt(100);
-        Integer numero2 = aleatorio2.nextInt(100);
-        Integer numero3 = aleatorio3.nextInt(100);
+        Integer numero1 = aleatorio.nextInt(101);
+        Integer numero2 = aleatorio.nextInt(101);
+        Integer numero3 = aleatorio.nextInt(101);
             
         //Armazena os numero da CPU
         if (numero1 > maxCpu) {
@@ -349,25 +349,33 @@ public class ProjetoIndividual extends javax.swing.JFrame {
             minMemoria = numero3;
         } 
         
-        medCpu = medCpu + numero1;
-        medDisco = medDisco + numero2;
-        medMemoria = medMemoria + numero3;
         contador += 1;
+        medCpu = (medCpu + numero1);
+        medDisco = (medDisco + numero2);
+        medMemoria = (medMemoria + numero3);
+        
+        Double mediaCpu = medCpu/contador;
+        Double mediaDisco = medDisco/contador;
+        Double mediaMemoria = medMemoria/contador;
+        
         //Mostra os numeros
         TextCpu.setText(String.valueOf(numero1));
         textMaxCpu.setText(String.valueOf(maxCpu));
         textMinCpu.setText(String.valueOf(minCpu));
-        textMedCpu.setText(String.valueOf(medCpu/contador));
+        textMedCpu.setText
+        (String.valueOf(String.format("%.2f", (mediaCpu))));
         
         TextDisco.setText(String.valueOf(numero2));
         textMaxDisco.setText(String.valueOf(maxDisco));
         textMinDisco.setText(String.valueOf(minDisco));
-        textMedDisco.setText(String.valueOf(medDisco/contador));
+        textMedDisco.setText
+        (String.valueOf(String.format("%.2f", (mediaDisco))));
         
         TextMemoria.setText(String.valueOf(numero3));
         textMaxMemoria.setText(String.valueOf(maxMemoria));
         textMinMemoria.setText(String.valueOf(minMemoria));
-        textMedMemoria.setText(String.valueOf(medMemoria/contador));
+        textMedMemoria.setText
+        (String.valueOf(String.format("%.2f", (mediaMemoria))));
         
         progressCPU.setValue(numero1);
         progressDisco.setValue(numero2);
